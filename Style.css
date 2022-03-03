@@ -1,0 +1,133 @@
+body {
+    height: 800px;
+    background-image: url("img/montanas-en-bosque-minimalista-flat-3306.jpg");
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    
+  }
+
+  h1{
+    color: black;
+    text-align: center;
+  }
+
+  header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .img-circle{
+    position:absolute;
+    top: 15rem;
+    left: 45%;
+    width: 10%;
+}
+
+  div.Information{
+    margin: 9cm;
+    background-color: transparent;
+    
+  }
+
+div.well{
+  background-color: transparent;
+  height: 18cm;
+  border: none;
+}
+
+#proyectos {padding-top:50px;height:500px;}
+
+.img-rounded{
+width: 15%;
+margin: 3%;
+align-self:center;
+
+}
+
+.list-group{
+  text-align: center;
+}
+
+.modal-dialog{
+  width: 20cm;
+  height: 1cm;
+}
+
+
+#contacto {padding-top:150px;height:400px;}
+
+#me {padding-top:200px;height:500px;}
+
+
+
+
+hr{
+  color: transparent;
+  border: none;
+}
+
+
+/*Footer*/
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 10px;
+}
+
+footer a {
+  color: #f5f5f5;
+}
+
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+#footer {
+  padding-top:450px;
+  height:100%;
+  width: 100%;
+}
+
+/**/
+div.work:hover{
+  background-color: rgb(216, 216, 216);
+  text-decoration: none;
+  border-radius: 2rem;
+}
+
+.panel{
+  border-radius: 2rem;
+}
+
+.panel-heading{
+  border-radius: 2rem;
+  background-color: rgb(70, 18, 94);
+  color: white;
+}
+a{
+  color:  rgb(70, 18, 94);
+}
+a:hover{
+  color:  rgb(42, 4, 59);
+  background-color: aliceblue;
+}
+
+button.btn{
+  background-color:  rgb(42, 4, 59);
+  color: white;
+  border-radius: 1rem;
+  width: 50pt;
+  text-align: center;
+}
+
+button.btn:hover{
+  background-color:  rgb(119, 17, 167);
+  color: white;
+  border-radius: 2rem;
+}
